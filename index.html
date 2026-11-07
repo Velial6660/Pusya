@@ -1,3 +1,15 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Персональная выставка кошки Пуси.">
+<style>
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img { max-width: 100%; }
+</style>
 <title>Пуся</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,6 +47,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   background: var(--bg); color: var(--ink);
   font: 400 1.0625rem/1.6 var(--body);
@@ -268,6 +281,8 @@ footer p { color: var(--muted); font-size: .92rem; }
 }
 </style>
 
+</head>
+<body>
 <main>
   <header class="hero">
     <canvas class="fluff" id="fluff" aria-hidden="true"></canvas>
@@ -530,3 +545,6 @@ footer p { color: var(--muted); font-size: .92rem; }
   });
 })();
 </script>
+
+</body>
+</html>
